@@ -1,0 +1,34 @@
+{   
+    "job_name": "test",
+    "out_midi_path": "out_midi",
+    "code_type": "single",
+    "sample_num": 10,
+    "translator_args_dict": 
+    {
+        "pitch_lowest": "F3", 
+        "pitch_highest": "G5", 
+        "bar_num": 4, 
+        "signature": "4/4", 
+        "min_quarter_duration": 0.5
+    },
+    "ga_args_dict":
+    {
+        "max_iters": 128,
+        "max_early_stop": 10,
+        "n_ind": 32,
+        "fitness_threshold":  1e-4,
+        "obj_func_list": ["continous"],
+        "opt_algorithm_name": null,
+        "logTras": null
+    },
+    "compose_args_dict":
+    {
+        "seed": 7, 
+        "verbose": false, 
+        "drawing": false,
+        "outputMsg": true,
+        "drawLog": false,
+        "saveFlag": false, 
+        "dirName": "result"
+    }
+}
